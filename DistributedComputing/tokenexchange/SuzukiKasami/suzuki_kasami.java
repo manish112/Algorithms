@@ -34,6 +34,7 @@ public class suzuki_kasami {
 			int no_of_sites) {
 
 		localsite.LN[thissiteNumber - 1] = localsite.RN[thissiteNumber - 1];
+		sys
 
 		// Send updated LN value to all sites
 		String message = "ln," + thissiteNumber + "," + localsite.LN[thissiteNumber - 1];
